@@ -1,0 +1,25 @@
+{
+  "name": "front_monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Delicate90/front_monitor.git",
+  "author": "delicate <delicatestudio2013@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start monitor": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "html-webpack-plugin": "^4.3.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
